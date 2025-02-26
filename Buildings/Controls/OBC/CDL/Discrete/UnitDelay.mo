@@ -45,22 +45,15 @@ equation
   annotation (
     defaultComponentName="uniDel",
     Documentation(
-      info="<html>
-<p>
-Block that outputs the input signal with a unit delay:
-</p>
-<pre>
-          1
-     y = --- * u
-          z
-</pre>
+      info= "<html><head></head><body><p>
+Block that outputs the input signal with a unit delay:</p><pre style=\"text-align: center;\">     <i>y = (1/z) * u</i></pre>
 <p>
 that is, the output signal <code>y</code> is the
 input signal <code>u</code> of the
 previous sample instant. Before the second sample instant,
 the output <code>y</code> is identical to parameter <code>y_start</code>.
 </p>
-</html>",
+</body></html>",
       revisions="<html>
 <ul>
 <li>
